@@ -1,5 +1,7 @@
-# Test_Repo
+# FinTech Repository
 
-All is good, lets upload to GIT. 
+## FinTech Repository
 
-nlsdhn@gmail.com
+### FinTech Repository
+
+Welcome to my repositiory of Fintech projects. Please explore the codebase!
