@@ -1,26 +1,49 @@
-# *FinTech Repository*
+# Loan Qualifier Application
+
+Command line interface application that lets users determine which banks can provide a loan based on the user's input for credit score, debt, income and value of asset. The application uses a 'daily rate sheet' and outputs a file with qualifying loans. 
 ---
-## FinTech Repository
 
-### FinTech Repository
+## Technologies
 
-![Three circular icons that represent a phone, the python logo, and money.](images/fintech.png)
+This project leverages python 3.9 with the following packages:
 
-**Welcome to my repositiory of Fintech projects. Please explore the codebase!**
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
 
-> "...to boldly go where no one has gone before."
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
+---
 
-A `print` function in Python displays the text or variable passed in the function as output:
+## Installation Guide
+
+Before running the application first install the following dependencies.
 
 ```python
-text = "This is a sentence that you would like to display."
-print(text)
+
+pip install fire
+pip install questionary 
+
+```
+---
+
+## Usage
+
+To use the loan qualifier application simply clone the repository and run the **app.py** with:
+
+```python
+python app.py
 ```
 
-## Directory
+Upon launching the loan qualifier application you will be greeted with the following prompts.
 
-[Programs](code)
+![Loan Qualifier Prompts](Images/loan_qalifier.png)
 
-[Data files](data)
+---
 
-[References](references)
+## Contributors
+
+Created and designed by Niels de Haan in colaboration with Columbia Fintech Bootcamp
+
+---
+
+## License
+
+GNU GPLv3
